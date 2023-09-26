@@ -16,4 +16,5 @@ app.get("/",async(req,res)=>{
 
 app.listen(8090, () => {
   console.log("Server is listening on port 8090....");
+  db()
 });
